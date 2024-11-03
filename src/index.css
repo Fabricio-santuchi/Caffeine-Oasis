@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-base;
+  }
+  body {
+    @apply font-roboto;
+  }
+}
+
+.custom-link {
+  @apply my-0 mx-4 text-2xl text-white transition-all ease-linear;
+}
+
+.custom-link:hover {
+  @apply text-mainColor border-b-b1px border-solid border-mainColor pb-2;
+}
+
+.section-custom {
+  @apply max-w-[1200px] py-7 px-8 my-0 mx-auto;
+}
+
+.btn-saiba-mais {
+  @apply bg-mainColor cursor-pointer mt-8 inline-block text-3xl text-white py-4 px-12 rounded-md transition-colors transition-transform ease-linear;
+}
+
+.btn-saiba-mais:hover {
+  @apply scale-105 bg-mainColorHover;
+}
