@@ -12,21 +12,25 @@
 }
 
 .custom-link {
-  @apply my-0 mx-4 text-2xl text-white transition-all ease-linear;
+  @apply my-0 mx-6 text-2xl text-white transition-all ease-linear;
 }
 
 .custom-link:hover {
-  @apply text-mainColor border-b-b1px border-solid border-mainColor pb-2;
+  @apply text-main border-b-b1px border-solid border-main pb-2;
 }
 
 .section-custom {
-  @apply max-w-[1200px] py-7 px-8 my-0 mx-auto;
+  @apply max-w-[1200px] py-4 px-8 my-0 mx-auto;
 }
 
 .btn-saiba-mais {
-  @apply bg-mainColor cursor-pointer mt-8 inline-block text-3xl text-white py-4 px-12 rounded-md transition-colors transition-transform ease-linear;
+  @apply bg-main cursor-pointer mt-8 inline-block text-3xl text-white py-4 px-12 rounded-md transition-all ease-linear;
 }
 
 .btn-saiba-mais:hover {
-  @apply scale-105 bg-mainColorHover;
+  @apply scale-105 bg-main-hover;
+}
+
+.custom-flex {
+  @apply flex-grow flex-shrink basis-[45rem];
 }

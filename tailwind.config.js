@@ -7,24 +7,25 @@ export default {
         roboto: ["Roboto", "sans-serif"],
       },
       fontSize: {
-        base: "10px",
+        base: ["10px", { lineHeight: "1.5" }],
       },
       zIndex: {
-        baixo: "-1",
+        negative: "-1",
       },
       backgroundImage: {
         "custom-gradient":
-          " linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%)",
-      },
-      borderColor: {
-        grayClaro: "rgba(255, 255, 255, 0.3)",
+          "linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%)",
       },
       borderWidth: {
         b1px: "0.1rem",
       },
       colors: {
-        mainColor: "#d3ad7f",
-        mainColorHover: "#cc9a5c",
+        main: {
+          DEFAULT: "#d3ad7f",
+          hover: "#cc9a5c",
+        },
+        blackdf: "#131313",
+        grayClaro: "rgba(255, 255, 255, 0.3)",
       },
     },
   },

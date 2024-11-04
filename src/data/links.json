@@ -1,0 +1,7 @@
+[
+  { "href": "#home", "label": "Home" },
+  { "href": "#about", "label": "Sobre" },
+  { "href": "#menu", "label": "Menu" },
+  { "href": "#reviews", "label": "Avaliações" },
+  { "href": "#address", "label": "Endereço" }
+]
