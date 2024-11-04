@@ -1,11 +1,11 @@
 import ContainerSobre from "./ContainerSobre";
-import TituloSaibaMais from "./TituloSaibaMais";
+import TituloDB from "./TituloDB";
 
 const SectionSaibaMais = () => {
   return (
     <>
       <section className="section-custom">
-        <TituloSaibaMais />
+        <TituloDB subtitle="Nós">Sobre</TituloDB>
         <ContainerSobre />
       </section>
     </>
