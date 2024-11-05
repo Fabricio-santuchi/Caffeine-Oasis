@@ -1,6 +1,6 @@
 # Caffeine Oasis
 
-Veja o projeto em funcionamento: [Caffeine Oasis na Vercel](https://link-do-seu-projeto.vercel.app/)
+Veja o projeto em funcionamento: [Caffeine Oasis na Vercel](https://caffeine-oasis.vercel.app/)
 
 Este projeto é um aplicativo para cafeteria, desenvolvido com React e estilizado com Tailwind CSS. O objetivo é criar uma experiência interativa e visualmente agradável para os usuários que desejam explorar opções de bebidas e snacks.
 
