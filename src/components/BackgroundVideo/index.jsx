@@ -1,9 +1,11 @@
+import videoCoffee from "/src/assets/videos/Coffe.mp4";
+
 const BackgroundVideo = () => {
   return (
     <div className="fixed top-0 left-0 w-full h-full z-negative overflow-hidden">
       <video
         className="w-full h-full object-cover"
-        src="/src/assets/videos/Coffe.mp4"
+        src={videoCoffee}
         loop
         muted
         autoPlay
