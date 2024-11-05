@@ -1,4 +1,4 @@
-import videoCoffee from "../../assets/videos/Coffe.mp4";
+import videoCoffee from "/src/assets/videos/Coffe.mp4";
 
 const BackgroundVideo = () => {
   return (
