@@ -26,7 +26,7 @@ function App() {
       <BackgroundVideo />
       <Header />
 
-      <main className="mb-32 ">
+      <main className="mb-52 ">
         <SectionCafeDelicioso />
         <SectionSaibaMais />
         <ModalMaps />
