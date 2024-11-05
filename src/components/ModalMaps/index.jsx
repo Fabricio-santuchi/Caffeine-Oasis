@@ -1,6 +1,6 @@
 import { useModal } from "../../hooks/useModal";
 import TituloDB from "../SectionSaibaMais/TituloDB";
-// import ModalMascara from "./ModalMascara";
+import ModalMascara from "./ModalMascara";
 
 const ModalMaps = () => {
   const { isVisible, alterarModal } = useModal();
@@ -11,19 +11,13 @@ const ModalMaps = () => {
 
   return (
     <>
-      {/* Máscara de fundo */}
-      <div
-        className={`fixed z-30 inset-0 bg-black bg-opacity-50 backdrop-blur-sm transition-opacity duration-300 ${
-          isVisible ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-        }`}
-        onClick={toggleModal}
-      ></div>
+      <ModalMascara />
 
-      {/* Modal com o mapa */}
       <div
-        className={`fixed top-1/2 left-0 -translate-y-1/2 transform transition-transform duration-500 ease-in-out z-40 shadow-lg ${
-          isVisible ? "left-1/2 -translate-x-1/2" : "-translate-x-full"
-        } max-w-[600px] w-full`}
+        className={`fixed top-[50%] left-0 -translate-y-1/2 transition-all duration-500 ${
+          isVisible ? "left-[50%] translate-x-[-50%]" : "-translate-x-full"
+        } z-40 shadow-lg max-w-[600px] w-full`}
+        onClick={toggleModal}
       >
         <TituloDB subtitle="Endereço">Nosso</TituloDB>
         <iframe

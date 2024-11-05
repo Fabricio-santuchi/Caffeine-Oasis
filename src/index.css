@@ -13,7 +13,7 @@
 }
 
 .custom-link {
-  @apply my-0 mx-6 text-2xl text-white transition-all ease-linear;
+  @apply my-0 mx-6 text-2xl text-white transition-all ease-linear pb-2 md:pb-0 border-b-b1px md:border-none border-b-transparent;
 }
 
 .custom-link:hover {
