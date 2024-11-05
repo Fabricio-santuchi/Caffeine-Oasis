@@ -23,9 +23,8 @@ Este projeto é um aplicativo para cafeteria, desenvolvido com React e estilizad
 
 Para melhor ilustrar o funcionamento do projeto, aqui estão algumas imagens prévias da interface principal:
 
-![Tela Inicial](./public/home-preview.png)
-![Catálogo de Produtos](./public/catalog-preview.png)
-![Detalhes do Produto](./public/product-detail-preview.png)
+![img](./public/preview1.png)
+![img2](./public/preview2.png)
 
 ## 🚀 Como Rodar o Projeto
 
@@ -83,9 +82,9 @@ caffeine-oasis/
 │   │   ├── ModalMaps/     # modal do mapa
 │   │   ├── Main/          # Componente main
 │   │   └── Header/        # Cabeçalho da aplicação
-│   ├── context/   
-│   ├── data/ 
-│   ├── hooks/ 
+│   ├── context/
+│   ├── data/
+│   ├── hooks/
 │   ├── App.jsx            # Componente principal do App
 │   ├── index.css          # Arquivo de estilos globais
 │   └── main.jsx           # Ponto de entrada da aplicação React
