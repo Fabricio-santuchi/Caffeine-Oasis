@@ -17,7 +17,9 @@ const SectionCafeDelicioso = () => {
           ambiente inspirador, rodeado pelo aroma do melhor café da região!
         </TextoDelicioso>
 
-        <ActionButton>Garanta o Seu Agora</ActionButton>
+        <div className="flex xs:block justify-center sm:block">
+          <ActionButton>Garanta o Seu Agora</ActionButton>
+        </div>
       </div>
     </section>
   );

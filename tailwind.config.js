@@ -1,3 +1,5 @@
+import scrollbar from "tailwind-scrollbar";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -27,7 +29,11 @@ export default {
         blackdf: "#131313",
         grayClaro: "rgba(255, 255, 255, 0.3)",
       },
+      screens: {
+        xs: "400px",
+        wCoffee: "965px",
+      },
     },
   },
-  plugins: [],
+  plugins: [scrollbar],
 };

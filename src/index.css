@@ -4,8 +4,9 @@
 
 @layer base {
   html {
-    @apply text-base;
+    @apply text-base scrollbar-thin scrollbar-thumb-main scrollbar-track-blackdf;
   }
+
   body {
     @apply font-roboto;
   }
@@ -33,4 +34,13 @@
 
 .custom-flex {
   @apply flex-grow flex-shrink basis-[45rem];
+}
+
+::-webkit-scrollbar-button {
+  display: none; /* Esconde as setas */
+}
+
+/* Para Firefox */
+* {
+  scrollbar-color: transparent transparent; /* Remove a cor das setas */
 }

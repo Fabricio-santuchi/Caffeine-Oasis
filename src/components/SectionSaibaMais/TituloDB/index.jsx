@@ -4,7 +4,7 @@ import SpanDB from "./SpanDB";
 
 const TituloDB = ({ children, subtitle }) => {
   return (
-    <h2 className="text-center text-white uppercase pb-14 text-6xl font-bold">
+    <h2 className="text-center text-white uppercase pb-14 text-4xl xs:text-5xl sm:text-6xl font-bold">
       <SpanDB>{children}</SpanDB> {subtitle}
     </h2>
   );

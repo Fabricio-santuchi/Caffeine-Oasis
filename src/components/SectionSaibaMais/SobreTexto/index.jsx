@@ -4,7 +4,7 @@ import TextoInformativo from "../TextoInformativo";
 const SobreTexto = () => {
   return (
     <div className="custom-flex p-8">
-      <h3 className="text-5xl text-white font-semibold">
+      <h3 className=" text-white font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-5xl transition-all ease-linear">
         O que torna o nosso café único
       </h3>
       <TextoInformativo>
@@ -22,8 +22,9 @@ const SobreTexto = () => {
         uma tradição que valoriza a qualidade e o cuidado em cada etapa do
         processo.
       </TextoInformativo>
-
-      <ActionButton>Saiba mais</ActionButton>
+      <div className="flex xs:block justify-center sm:block">
+        <ActionButton>Saiba mais</ActionButton>
+      </div>
     </div>
   );
 };
