@@ -2,7 +2,10 @@
 
 Veja o projeto em funcionamento: [Caffeine Oasis na Vercel](https://caffeine-oasis.vercel.app/)
 
-Este projeto é um aplicativo para cafeteria, desenvolvido com React e estilizado com Tailwind CSS. O objetivo é criar uma experiência interativa e visualmente agradável para os usuários que desejam explorar opções de bebidas e snacks.
+Aplicação frontend para cafeteria com foco em experiência do usuário, layout responsivo e interface moderna.
+
+📌 **Tipo:** Frontend  
+📌 **Objetivo:** UI/UX e experiência do usuário
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -112,12 +115,3 @@ caffeine-oasis/
 - **ESLint**: Ferramenta para identificar e corrigir problemas no código.
 - **Vite Plugin React**: Suporte para React dentro do Vite.
 - **Tailwind Scrollbar**: Estilização da barra de rolagem.
-
-## 📚 Projeto Inspirado
-
-Este projeto foi inspirado em um vídeo do **DevClub**, onde aprendi a implementar um aplicativo de cafeteria. Agradeço ao DevClub pelo excelente conteúdo que ajudou a aprimorar minhas habilidades em desenvolvimento. Embora tenha utilizado o vídeo como base, fiz alterações no código e design para personalizá-lo e aprimorá-lo conforme minha visão.
-
-## ✍️ Autor
-
-**Fabrício Santuchi**  
-Estudante de **Sistemas de Informação** e desenvolvedor front-end. Apaixonado por criar soluções práticas e funcionais usando as mais recentes tecnologias.
